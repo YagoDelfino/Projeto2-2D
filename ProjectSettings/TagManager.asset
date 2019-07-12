@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Player
   - 
   - 
   - 
@@ -38,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 4217884463
+    locked: 0
+  - name: Meio
+    uniqueID: 4172776043
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Cogumelo
+    uniqueID: 3278298895
+    locked: 0
+  - name: Player
+    uniqueID: 1456445555
     locked: 0
