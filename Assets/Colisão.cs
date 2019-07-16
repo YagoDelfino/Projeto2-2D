@@ -15,6 +15,7 @@ public class Colisão : MonoBehaviour
             {
                 animação.SetBool("TouchTheEnemy", true);
                 player.DamagePlayer();
+                
             }
                 
 
