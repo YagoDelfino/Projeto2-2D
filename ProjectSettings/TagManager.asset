@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -14,10 +15,10 @@ TagManager:
   - 
   - 
   - Player
-  - 
-  - 
-  - 
-  - 
+  - Enemy
+  - Background
+  - "Obst\xE1culo"
+  - Trigger
   - 
   - 
   - 
@@ -47,8 +48,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: "Obst\xE1culo"
+    uniqueID: 3405871905
+    locked: 0
   - name: Cogumelo
     uniqueID: 3278298895
+    locked: 0
+  - name: Enemy
+    uniqueID: 3731794841
     locked: 0
   - name: Player
     uniqueID: 1456445555
